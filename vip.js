@@ -1,23 +1,5 @@
 var thisURL = window.location.href,inum=1,vipOption;
-var vipChannl = new Array(
-//"http://Yourdomain.com/index.php?url=",
-//"http://Yourdomain.com/index.php?url=",
-//"http://Yourdomain.com/index.php?url=",
-//"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-"http://Yourdomain.com/index.php?url=",
-);
-
+var vipChannl = new Array("http://j.88gc.net/jx/?url=", "http://vip.jlsprh.com/index.php?url=", "http://www.0335haibo.com/tong.php?url=", "http://api.wlzhan.com/sudu/?url=", "http://aikan-tv.com/?url=", "http://jx.vgoodapi.com/jx.php?url=", "http://000o.cc/jx/ty.php?url=", "http://j.zz22x.com/jx/?url=", "http://qtv.soshane.com/ko.php?url=", "http://api.wlzhan.com/sudu/?url=", "http://www.kkflv.com/kkflv/index.php?url=", "http://q.z.vip.totv.72du.com/?url=", "http://qtv.soshane.com/ko.php?url=", "http://m.laozi99.com/m3u8.php?url=", "http://www.a305.org/x3/tong.php?url", "http://jx.2012net.com/index.php?url=", "http://y.qin52.com/xnflv/index.php?url=", "http://j.chanchangou.com/vip/index.php?url=", "http://api.koflv.cn/url.php?url=", "http://api.haitian.tv/vip/?url=", "http://98api.com/api?url=", "http://www.19fa.com//api/index.php?url=", "https://www.a305.org/x3/tong.php?url=", "http://api.mgyy.tv/mgvip/?url=", "http://jx.myxit.cn/vip/?url=", "http://www.99av.win:81/?url=", "http://014670.cn/jx/ty.php?url=", "http://jx.mdjsheying.com/api/index.php?url=", "http://y.qin52.com/xnflv/index.php?url=", "http://api.baiyug.cn/vip/index.php?url=", "http://at520.cn/atjx/jiexi.php?url=", "http://www.662820.com/xnflv/index.php?url=", "http://ku.kuuhui.com/svipjx/liulanqichajian/browserplugin/qianru/qianru.php?id=");
 for (x in vipChannl)
 {
   vipOption = vipOption + '<option value="'+vipChannl[x]+thisURL+'">VIP通道'+inum+++'</option>';
