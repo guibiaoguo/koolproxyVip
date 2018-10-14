@@ -1,5 +1,4 @@
-var inum = 1,
-	vipOption = "";
+var inum = 1,vipOption = "";
 var vipChannl = new Array(
 	"http://j.88gc.net/jx/?url=", 
 	"http://vip.jlsprh.com/index.php?url=", 
