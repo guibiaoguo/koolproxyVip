@@ -10,7 +10,7 @@
 |http://www.iqiyi.com/v_*$s@</body>@<script>insVIP('mod-play-tit','flashbox');</script></body>@
 |http://www.iqiyi.com/v_*##div[style*="absolute"][style*="visibility"]
 |http://www.le.com/$s@</head>@<script src="http://raw.githack.com/guibiaoguo/koolproxyVip/master/vip.js"></script></head>@
-|http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
+|http://www.le.com/$s@</body>@<script>insVIP('icon_search_hot','fla_box');</script></body>@
 ||sohu.com/crossdomain.xml$c
 ||https://sohu.com/album/$s@</head>@<script src="http://raw.githack.com/guibiaoguo/koolproxyVip/master/vip.js"></script></head>@
 ||https://sohu.com/album/$s@</body>@<script>insVIP('player-content-info','playerWrap');</script></body>@
