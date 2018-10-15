@@ -122,7 +122,10 @@ for (x in vipChannl) {
 }
 
 function insVIP(emID, rID) {
-	var gemID = document.getElementsByClassName(emID)[0];
+	var gemID = document.getElementById(emID);
+	if (gemID == null) {
+		gemID = document.getElementsByClassName(emID)[0]
+	}
 	var newNode = document.createElement("select");
 	newNode.setAttribute("title", "Insert VIPChannl by FUCK.");
 	newNode.setAttribute("style", "border:2px solid #0088f5;color:#0088f5;outline:0");
@@ -133,6 +136,9 @@ function insVIP(emID, rID) {
 
 function replacePlayer(e, rID) {
 	var playerID = document.getElementById(rID);
+	if (playerID == null) {
+		playerID = document.getElementsByClassName(rID)[0]
+	}
 	var thisURL = window.location.href.match('http[^\?]*')[0];
 	playerID.innerHTML = '';
 	var newplayerID = document.createElement("iframe");
