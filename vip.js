@@ -143,5 +143,10 @@ function replacePlayer(e, rID) {
 	newplayerID.setAttribute("marginwidth", "0");
 	newplayerID.setAttribute("width", "100%");
 	newplayerID.setAttribute("height", "100%");
+	newplayerID.setAttribute("allowfullscreen","allowfullscreen");
+        newplayerID.setAttribute("mozallowfullscreen","mozallowfullscreen");
+        newplayerID.setAttribute("msallowfullscreen","msallowfullscreen");
+        newplayerID.setAttribute("oallowfullscreen","oallowfullscreen");
+        newplayerID.setAttribute("webkitallowfullscreen","webkitallowfullscreen");
 	newplayerID.src = e.value + thisURL;
 }
